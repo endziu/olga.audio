@@ -1,9 +1,3 @@
-#yarn stuff
-.yarn/*
-!.yarn/releases
-!.yarn/plugins
-.pnp.*
-
 # dependencies
 /node_modules
 /.pnp
@@ -27,3 +21,4 @@ yarn-debug.log*
 yarn-error.log*
 
 debug.log
+.now
