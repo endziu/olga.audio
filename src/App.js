@@ -1,12 +1,12 @@
 import React from "react"
 import { Routes, Route } from "react-router-dom"
 
-import Header from "./components/Header/index.js"
-import Img from "./components/Img/index.js"
-import About from "./components/About/index.js"
-import Experience from "./components/Experience/index.js"
-import Gear from "./components/Gear/index.js"
-import Contact from "./components/Contact/index.js"
+import Header from "./components/Header"
+import Img from "./components/Img"
+import About from "./components/About"
+import Experience from "./components/Experience"
+import Gear from "./components/Gear"
+import Contact from "./components/Contact"
 
 function App() {
   return (
