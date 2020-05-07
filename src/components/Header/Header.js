@@ -14,7 +14,7 @@ function Header() {
         to={href}
         onClick={() => setMenu(false)}
         // prettier-ignore
-        className={`${pathname === href ? activeStyle : ''} block mb-1 sm:mb-0 mx-2 sm:mx-0 sm:ml-2 p-2 xl:p-3 text-md font-semibold md:text-lg lg:text-xl text-gray-800 ${hoverText} border-b-2 border-transparent shadow-md hover:shadow-lg ${hoverBorder}`}
+        className={`${pathname === href ? activeStyle : ''} block mb-1 sm:mb-0 mx-2 sm:mx-0 sm:ml-2 p-2 xl:p-3 text-md font-semibold md:text-lg lg:text-xl text-gray-800 ${hoverText} border-b-2 border-transparent shadow-sm hover:shadow-md ${hoverBorder}`}
       >
         {text}
       </Link>
