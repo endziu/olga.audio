@@ -12,7 +12,7 @@ function Contact() {
         lectus. Morbi blandit cursus risus at ultrices mi tempus imperdiet
         nulla.
       </div>
-      <Img />
+      <Img imgSrc="./images/contact.jpg" />
     </div>
   )
 }
