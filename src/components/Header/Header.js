@@ -27,10 +27,10 @@ function Header() {
         <Link
           to="/"
           onClick={() => setMenu(false)}
-          className="flex items-center"
+          className="flex items-center text-gray-900 hover:text-gray-700"
         >
           <svg
-            className="flex-none w-12 xl:w-16 m-2 xl:m-4 fill-current text-gray-900 hover:text-gray-700"
+            className="flex-none w-12 xl:w-16 m-2 xl:m-4 fill-current "
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
           >
@@ -38,7 +38,7 @@ function Header() {
           </svg>
 
           <svg
-            className="flex-none h-12 xl:h-16 fill-current text-gray-900 hover:text-gray-700"
+            className="flex-none h-12 xl:h-16 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 500 200"
           >
