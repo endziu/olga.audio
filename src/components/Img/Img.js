@@ -9,7 +9,7 @@ function Img() {
   return (
     <div
       // prettier-ignore
-      className={`${pathname !== "/" ? "absolute top-0 left-0" : "relative"} p-1 lg:p-3`}
+      className={`${pathname !== "/" ? "absolute top-0 left-0" : "relative"} p-1 xl:p-3`}
       style={{
         zIndex: "-10",
         height: `calc(100vh - ${isLarge ? "96px" : "64px"})`,
