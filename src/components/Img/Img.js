@@ -2,7 +2,7 @@ import React from "react"
 import useMediaQuery from "use-media-query-hook"
 import { useLocation } from "react-router-dom"
 
-function Img() {
+function Img({ imgSrc = "/images/olga-bg.jpg" }) {
   const isLarge = useMediaQuery("(min-width: 1280px)")
   const { pathname } = useLocation()
 
@@ -28,7 +28,7 @@ function Img() {
       )}
       <img
         className="w-full h-full object-cover object-center"
-        src="/images/olga-bg.jpg"
+        src={imgSrc}
         alt="Olga z mikrofonem"
       />
     </div>
