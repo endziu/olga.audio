@@ -2,7 +2,7 @@ import React from "react"
 import useMediaQuery from "use-media-query-hook"
 import { useLocation } from "react-router-dom"
 
-function Img({ imgSrc = "/images/contact.jpg" }) {
+function Img({ imgSrc = "/images/olga-bg.jpg" }) {
   const isLarge = useMediaQuery("(min-width: 1280px)")
   const { pathname } = useLocation()
 
@@ -20,7 +20,7 @@ function Img({ imgSrc = "/images/contact.jpg" }) {
           className="absolute top-1 left-1 right-1 bottom-1 opacity-75"
           style={{
             // prettier-ignore
-            background:"linear-gradient(0deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,1) 100%)",
+            background: "linear-gradient(0deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,1) 100%)",
             width: `calc(100% - ${isLarge ? "24px" : "8px"})`,
             height: `calc(100% - ${isLarge ? "24px" : "8px"})`,
           }}
