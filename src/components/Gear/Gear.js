@@ -11,7 +11,7 @@ function Gear() {
         sit amet justo donec enim diam. Senectus et netus et malesuada fames ac
         turpis egestas.
       </div>
-      <Img />
+      <Img imgSrc="./images/olga-bg.jpg" />
     </div>
   )
 }

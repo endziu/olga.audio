@@ -12,7 +12,7 @@ function Experience() {
         sem et tortor consequat id porta. Quis viverra nibh cras pulvinar mattis
         nunc sed.
       </div>
-      <Img />
+      <Img imgSrc="./images/olga-bg.jpg" />
     </div>
   )
 }

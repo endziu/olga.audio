@@ -2,7 +2,7 @@ import React from "react"
 import useMediaQuery from "use-media-query-hook"
 import { useLocation } from "react-router-dom"
 
-function Img({ imgSrc = "/images/olga-bg.jpg" }) {
+function Img({ imgSrc = "/images/contact.jpg" }) {
   const isLarge = useMediaQuery("(min-width: 1280px)")
   const { pathname } = useLocation()
 
