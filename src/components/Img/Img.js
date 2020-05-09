@@ -27,7 +27,7 @@ function Img({ imgSrc = "/images/contact.jpg" }) {
         />
       )}
       <img
-        className="w-full h-full object-cover object-center"
+        className="w-full h-full object-cover object-top"
         src={imgSrc}
         alt="Olga z mikrofonem"
       />
