@@ -20,7 +20,8 @@
     "build:style": "export NODE_ENV=development && tailwind build src/styles/index.css -o src/styles/tailwind.css",
     "build:purge": "export NODE_ENV=production && tailwind build src/styles/index.css -o src/styles/tailwind.css",
     "deploy": "npm run build:purge && now --prod",
-    "start": "npm run build:style && react-scripts start",
+    "dev": "npm run build:style && react-scripts start",
+    "start": "npm run build:purge && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
