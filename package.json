@@ -22,7 +22,7 @@
     "deploy": "npm run build:purge && now --prod",
     "dev": "npm run build:style && react-scripts start",
     "start": "npm run build:purge && react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run build:purge && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
